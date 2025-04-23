@@ -1,4 +1,4 @@
 output "hostnames" {
   description = "mtls hostnames"
-  value       = locals.hostnames 
+  value       = local.hostnames 
 }
