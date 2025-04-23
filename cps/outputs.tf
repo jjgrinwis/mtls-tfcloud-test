@@ -1,4 +1,4 @@
 output "hostnames" {
   description = "mtls hostnames"
-  value       = local.hostnames 
+  value       = data.tfe_outputs.all
 }
