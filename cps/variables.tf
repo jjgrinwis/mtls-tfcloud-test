@@ -8,8 +8,3 @@ variable "variable_set" {
   type        = string
   default     = "TFE"
 }
-
-variable "entitlement_id" {
-  description = "Our unused entitlement_id to to ignore some warnings as it will be set automatically by a variable set."
-  type        = number
-}
