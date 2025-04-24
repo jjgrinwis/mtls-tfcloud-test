@@ -1,4 +1,6 @@
 // get all workspaces based on tags
+// when running 'remote', we need to set TFE token in provider config or ENV var
+// https://registry.terraform.io/providers/hashicorp/tfe/latest/docs#authentication
 data "tfe_workspace_ids" "properties" {
   tag_names    = ["mtls"]
   organization = var.organization
